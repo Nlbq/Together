@@ -1,0 +1,42 @@
+form{
+  font-size: 1rem;
+}
+
+label{
+  color: #0d6efd;
+}
+
+.container{
+margin-top: 1% !important;
+box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+border-radius: 8px;
+}
+
+.form-control{
+font-size: 15px;
+}
+.edit-customer-title{
+font-weight: 700;
+  color: #0d6efd;
+}
+
+form input{
+padding: 5px !important;
+padding-left: 10px ! important;
+background-color: #f7fafd;
+border-radius: 6px;
+border: none;
+outline: none;
+box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+form input:focus{
+box-shadow: inset 2px 2px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
+outline: none;
+}
+
+button:hover ,
+a:hover{
+  color: #fff;
+  transform: scale(1.05);
+}

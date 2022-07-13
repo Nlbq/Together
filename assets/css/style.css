@@ -1,0 +1,20 @@
+.together-button {
+  font-size: 0.87rem;
+  line-height: 1;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0.625rem 1.5rem;
+  border: 1px solid transparent;
+  margin-right: 5px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+textarea.form-control {
+  line-height: 22px;
+}
+
+
+

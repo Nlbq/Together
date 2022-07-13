@@ -1,0 +1,68 @@
+th{
+  font-size: 18px;
+  color: #555;
+}
+strong{
+  font-size: 19px;
+  color: #555;
+  
+}
+.table thead{
+  color: #0d6efd;
+  border-bottom: solid 2px #0d6efd;
+}
+.table td{
+  vertical-align: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.table button{
+  background-color: #0d6efd;
+  color: #fff;
+}
+.table button:hover{
+  color: #fff;
+  transform: scale(1.05);
+}
+.media p {
+  font-size: 16px;
+}
+.title-project-admin-view{
+  font-weight: 700;
+	color: #0d6efd;
+  font-size: 24px;
+}
+.title-project-customer-view{
+  font-weight: 700;
+	color: #0d6efd;
+  font-size: 24px;
+}
+
+.project-name-admin{
+  font-weight: 600;
+  color: #595959;
+  font-size: 24px;
+}
+
+/* .project-view-title-strong{
+  color: #696969;
+  font-size: 16px;
+} */
+
+.delivery-title-admin{
+  font-weight: 600;
+	color: #0d6efd;
+  font-size: 24px;
+}
+
+.delivery-title-customer{
+  font-weight: 700;
+	color: #0d6efd;
+  font-size: 24px;
+}
+
+.action-title-admin{
+  font-weight: 600;
+	color: #0d6efd;
+  font-size: 20px;
+}

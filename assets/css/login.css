@@ -1,0 +1,98 @@
+.login-logo img{
+    margin-top: 4%;
+}
+
+.container{
+    margin-top: 5% !important;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    border-radius: 10px;
+}
+
+.login-form-logo{
+    padding-top: 10% !important;
+    color: #0d6efd;
+}
+
+.email-input,
+.password-input{
+    background-color: #f7fafd;
+    border-radius: 6px;
+    border: none;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+.email-input:focus,
+.password-input:focus{
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
+}
+
+.form-check-input,
+.form-check-label{
+    cursor: pointer;
+}
+
+.form-check-label:hover{
+    color: #0d6efd;
+}
+
+.forget-password{
+    text-decoration: none;
+    color: unset;
+    font-size: 16px;
+}
+
+.forget-password:hover{
+    color: #0d6efd;
+}
+
+.login-error{
+    background: #f2dede !important;
+    color: #a94442 !important;
+    border-radius: 4px;
+}
+
+.login-notification{
+    background: #e4f4e6 !important;
+    color: #40a855 !important;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 450px){
+    .login-logo img{
+        height: 30px !important;
+    }
+
+    .login-logo{
+        margin: 12% !important;
+    }
+
+    .login-form-logo{
+        font-size: 8px !important;
+        padding-bottom: 3% !important;
+    }
+
+    .login-form{
+        padding: 5% !important;
+    }
+
+    .email-input,
+    .password-input{
+        font-size: 12px;
+        padding: 5px 10px !important;
+    }
+
+    input[type=checkbox] {
+        transform: scale(0.7);
+    }
+
+    .form-check-label,
+    .forget-password{
+        font-size: 12px;
+    }
+
+    .connexion-btn{
+        font-size: 12px;
+    }
+}
+
+ 

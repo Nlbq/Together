@@ -1,0 +1,39 @@
+main{
+    margin-bottom: 8% !important;
+  }
+  td{
+    vertical-align: middle;
+  }
+	.table thead{
+		position: sticky;
+		top: 0;
+		color: #0d6efd;
+		border-bottom: solid 2px #0d6efd;
+		background-color: #f2f2f2;
+	}
+	.table td{
+		vertical-align: center;
+		text-align: center;
+	}
+	.table button{
+		background-color: #0d6efd;
+		color: #fff;
+	}
+	.table button:hover{
+		color: #fff;
+		transform: scale(1.05);
+	}
+	.add-customer-button:hover{
+		transform: scale(1.05);
+	}
+	.table thead{
+		border-bottom: solid 2px #0d6efd;
+	}
+	.card-body{
+		box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    	border-radius: 8px;
+	}
+	.projects-list-title{
+		font-weight: 700;
+		color: #0d6efd;
+	}
